@@ -1,0 +1,12 @@
+.parking-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .parking-spot {
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+  }
+  

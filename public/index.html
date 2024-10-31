@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<!-- 
+  @file index.html
+  @brief Main HTML structure for the Parking App's entry point.
+  @details This file defines the basic structure for the Parking App, 
+           setting the document type, character set, viewport, title, and 
+           linking external stylesheets.
+  @date Oct 30, 2024
+  @version 0.01 (pre-release)
+  @author Roger Lu
+-->
+
+<html lang="en">
+  <head>
+    <!-- 
+      @brief Specifies the character encoding for the document.
+      @details UTF-8 encoding ensures compatibility with most languages and special characters.
+    -->
+    <meta charset="UTF-8">
+    
+    <!-- 
+      @brief Sets the viewport for responsive design.
+      @details The `viewport` meta tag is essential for ensuring the page is scaled properly 
+               on mobile devices, making it mobile-friendly by setting the initial scale to 1.0.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 
+      @brief Defines the title of the document.
+      @details This title will appear on the browser tab when the page is open.
+    -->
+    <title>Parking App</title>
+    
+    <!-- 
+      @brief Links to the Font Awesome stylesheet.
+      @details Font Awesome provides icons used in the Parking App. The link here loads 
+               the Font Awesome stylesheet from a CDN (Content Delivery Network).
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  
+  <body>
+    <!-- 
+      @brief Root div for the React application.
+      @details The `#root` div is where the React application will be rendered. 
+               React injects the main app content into this div, allowing it to manage the content dynamically.
+    -->
+    <div id="root"></div>
+  </body>
+</html>
